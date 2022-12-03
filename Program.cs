@@ -7,11 +7,13 @@ int num2 = Convert.ToInt32(Console.ReadLine());
 
 if(num1>num2)
 {
-    Console.Write(num1);
+    Console.Write($"Большее число {num1}");
+    Console.Write($"Меньшее число {num2}");
 }
 else
 {
-    Console.Write(num2);
+    Console.Write($"Большее число {num2}");
+    Console.Write($"Меньшее число число {num1}");
 }
 
 
